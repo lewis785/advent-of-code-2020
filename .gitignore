@@ -1,3 +1,6 @@
+#Ignore jetbrains ide
+.idea
+
 *.gem
 *.rbc
 /.config
