@@ -1,0 +1,8 @@
+version: "3.5"
+
+services:
+    advent:
+        build: .
+        entrypoint: tail -f /dev/null
+        volumes:
+            - .:/app
