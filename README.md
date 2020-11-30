@@ -1,2 +1,3 @@
 # advent-of-code-2020
-Contains solutions for the 2020 Advent of Code challenge
+
+Repository for [Advent Of Code 2020](https://adventofcode.com/2020)
