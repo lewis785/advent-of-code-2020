@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Day2
   class Task1
     def self.run
