@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Day5
+module Day6
   class Task1
     def self.run
       tickets.max
@@ -26,7 +26,7 @@ module Day5
 
   class Task2
     def self.run
-      tickets = Day5::Task1.tickets.sort
+      tickets = Day6::Task1.tickets.sort
 
       tickets.reduce(tickets.first - 1) do |product, ticket|
         return product + 1 if product + 1 != ticket
